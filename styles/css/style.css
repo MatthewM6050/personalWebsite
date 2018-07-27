@@ -1,0 +1,52 @@
+body
+{
+    background-color: rgb(255, 246, 219);
+}
+
+
+#taskBar
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: 5px solid black;
+    margin: auto;
+}
+
+#taskBar p
+{
+    border: 5px solid black;
+    padding: 25px;
+}
+
+div
+{
+    margin-bottom: 50px;
+}
+#mainContainer
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+#introductionPage
+{   
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+      
+}
+#contactInfo 
+{
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+}
+#contactInfo p
+{
+
+}
