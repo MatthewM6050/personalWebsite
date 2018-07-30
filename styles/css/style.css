@@ -1,28 +1,32 @@
 body
 {
     background-color: rgb(255, 246, 219);
+    height:100vh;
 }
 
+a {
+    color:white;
+    text-decoration: none;
+}
+div
+{
+    margin-bottom: 50px;
+}
 
 #taskBar
 {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    border: 5px solid black;
-    margin: auto;
+    justify-content: space-around;
+    border: 2px solid black;
+    margin-top: 0;
 }
-
 #taskBar p
 {
-    border: 5px solid black;
-    padding: 25px;
+    border:   black;
+    padding: 5px;
 }
 
-div
-{
-    margin-bottom: 50px;
-}
 #mainContainer
 {
     display: flex;
@@ -40,6 +44,62 @@ div
     width: 100%;
       
 }
+#name{
+    font-size: 72px;
+    margin-top: 15%;
+    margin-bottom: 10%;
+    padding-bottom: 5%;
+}
+
+
+#resume
+{
+    width: 100%;
+    
+}
+
+#resume
+{
+    display: flex;
+    flex-direction: row;
+}
+#skillsAndHobbies
+{
+    width: 30%;
+    flex-shrink: 0;
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.45), 
+        rgba(0, 0, 0, 0.45)
+      ), url('../../assets/crash.jpg');
+    height: 760px;
+    background-position-x: 50%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-bottom: 40px;
+}
+#skillsAndHobbies h2
+{
+    font-size: 50px
+}
+#skillsAndHobbies li    
+{
+    font-size: 25px;
+}
+#skills
+{
+    margin-bottom: 20%;
+}
+
+
+#educationAndAchievements
+{
+    width: 100%;
+}
+
+
 #contactInfo 
 {
     display: flex;
@@ -49,4 +109,8 @@ div
 #contactInfo p
 {
 
+}
+.socialMediaTags
+{
+    width:50px;
 }
