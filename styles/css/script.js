@@ -2,6 +2,7 @@ const element = document.querySelector("#phoneNum");
 
 function showNum()
 {
-    alert("(212) 498-3860");
+    alert("Phone Number: (646) 474-3860");
 }
+
 element.addEventListener("click", showNum);
